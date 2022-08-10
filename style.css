@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+.icone {
+  max-width: 15px;
+  margin-left: 30px;
+  margin-right: 5px;
+}
+.cabeçario {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 6px;
+  background: rgb(202, 202, 212);
+  list-style-type: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.botão-topo {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1.75fr 5rem 0.5fr;
+  background: #405a7a;
+  margin: 0px;
+  align-content: center;
+}
+.ampmed {
+  display: flex;
+  flex-wrap: wrap;
+  object-fit: contain;
+}
+.logotipo {
+  display: flex;
+  grid-column: 1;
+  object-fit: contain;
+  padding: 10px;
+  margin: 30px 20px;
+}
+.searchbar {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  display: grid;
+  align-items: center;
+  justify-content: flex-start;
+  justify-content: stretch;
+}
+.search {
+  margin-left: 40px;
+  padding: 5px;
+  border-radius: 2px;
+}
+.botao {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 3;
+  justify-items: center;
+  align-items: center;
+}
+.botao-1 {
+  text-align: center;
+  margin: 0px;
+  text-decoration: none;
+  color: black;
+  background: #a68a56;
+  padding: 5px;
+  border-radius: 4px;
+}
+.compras-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  grid-column: 4;
+  margin: 0px;
+  margin-left: 25px;
+}
+.compras {
+  max-width: 35px;
+}
+.texto-grid {
+  display: flex;
+  align-items: center;
+  grid-column: 5;
+}
+.texto {
+  max-width: 80%;
+  margin-right: 60px;
+}
+.homepage {
+  grid-column: 1/5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 150px;
+}
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+.banner {
+  background: #e6e6e6;
+}
+.baner-img {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  background: #e6e6e6;
+}
+.icones {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+  max-height: 900px;
+}
+.patrocinio {
+  margin: 0px;
+  background: #e6e6e6;
+  padding: 10px;
+}
+.beneficios-grid {
+  display: grid;
+  justify-items: center;
+  background: #e6e6e6;
+}
+.beneficios {
+  max-width: 30%;
+  margin-top: 20px;
+}
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #e6e6e6e6;
+  justify-items: center;
+}
+.benefico {
+  max-width: 80%;
+  padding: 120px 20px;
+}
+.parceiras-grid {
+  display: grid;
+  justify-items: center;
+  background: #e6e6e6;
+}
+.parceiras {
+  max-width: 30%;
+}
